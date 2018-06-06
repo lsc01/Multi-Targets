@@ -1,0 +1,16 @@
+platform :ios,"8.0"
+
+pod 'Masonry'
+
+target "Multi-Targets" do
+
+pod 'AFNetworking'
+
+end
+
+target "Target2" do
+
+pod 'Pgyer'
+pod 'PgyUpdate'
+
+end
